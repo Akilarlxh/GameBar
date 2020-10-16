@@ -2584,4 +2584,5 @@ body .center .pieces .blank {
 }
 .future_ui__piece a {
   color: white;
+  text-decoration:none; 
 }
