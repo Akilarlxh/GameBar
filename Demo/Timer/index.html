@@ -55,7 +55,7 @@ $(function(){
 				var nol = function(h){
 					return h>9?h:'0'+h;
 				}
-				var	range  	= NY-Math.round((new Date()).getTime()/1000),
+				var	range  	= Math.abs(NY-Math.round((new Date()).getTime()/1000)),
 					secday = 86400, sechour = 3600,
 					days 	= parseInt(range/secday),
 					hours	= parseInt((range%secday)/sechour),
